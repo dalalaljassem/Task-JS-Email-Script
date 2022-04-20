@@ -32,11 +32,11 @@ const msg = {
   from: 'dalal.aljassem@gmail.com', // Change to your verified sender
   subject: 'Certificate of completion',
   text: 'bla', 
-  html: `<div class="container">
-  <h1><strong> Certificate of Completion</strong></h1>
-  <p><strong> This certificate is presented to </strong></p>
-  <h2>${name}</h2>
-  <h4>for the secssful completion of</h4>
+  html: `<div class="container" style="color: black;display: table;font-family: Georgia, serif;font-size: 24px;text-align: center;">
+  <h1 style="color: rgb(16, 81, 165);font-size: 48px; margin: 20px;"><strong> Certificate of Completion</strong></h1>
+  <p style=" margin: 20px;"><strong> This certificate is presented to </strong></p>
+  <h2 style="border-bottom: 2px solid black;font-size: 32px;font-style: italic; margin: 20px auto;width: 400px;">${name}</h2>
+  <h4 style="margin:20px;">for the secssful completion of</h4>
   <h3 style="margin:20px;">${info}</h3>
   <h4>${day}/${month}/${year}</h4>
   <h5>With a passing grade of ${grade} </h5>
