@@ -2,6 +2,7 @@
   "dependencies": {
     "@sendgrid/mail": "^7.6.2",
     "convert-excel-to-json": "^1.7.0",
-    "moment": "^2.29.3"
+    "moment": "^2.29.3",
+    "nodemailer": "^6.7.3"
   }
 }
